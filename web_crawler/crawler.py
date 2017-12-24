@@ -9,16 +9,16 @@
 import urllib2
 import urllib
 
-# response = urllib2.urlopen("http://www.douban.com")
-# print response.read()
-#
-# #post
-# values = {"username": "flybetter@163.com", "password": "xxx"}
-# data = urllib.urlencode(values)
-# url = "https://passport.csdn.net/account/login"
-# request = urllib2.Request(url, data)
-# response = urllib2.urlopen(request)
-# print response.read()
+response = urllib2.urlopen("http://www.douban.com")
+print response.read()
+
+#post
+values = {"username": "flybetter@163.com", "password": "xxx"}
+data = urllib.urlencode(values)
+url = "https://passport.csdn.net/account/login"
+request = urllib2.Request(url, data)
+response = urllib2.urlopen(request)
+print response.read()
 
 
 # get
