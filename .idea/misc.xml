@@ -137,10 +137,6 @@
     </entry>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.11 (~/.pyenv/versions/2.7.11/bin/python2.7)" project-jdk-type="Python SDK" />
-  <component name="VagrantProjectSettings">
-    <option name="instanceFolder" value="" />
-    <option name="provider" value="" />
-  </component>
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
