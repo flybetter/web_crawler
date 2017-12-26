@@ -72,3 +72,6 @@ proxies = {
 
 r = requests.post("http://httpbin.org/post", proxies=proxies)
 print r.text
+
+r = requests.post("http://www.baidu.com")
+print r.text
